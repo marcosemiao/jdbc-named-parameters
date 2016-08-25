@@ -1,7 +1,7 @@
 # JDBC Named Parameters
 
 ## Fonctionnalités générales
-Cette librairie permet d'utiliser les paramètres nommées avec un du jdbc.
+Cette librairie permet d'utiliser les paramètres nommées avec un preparedStatement du jdbc.
 
 - Facile d'utilisation, il suffit de rajouter la dépendance Maven dans votre application.
 - Disponible sur le repository central de Maven.
