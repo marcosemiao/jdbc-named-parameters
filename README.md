@@ -27,7 +27,7 @@ Exemple avec une DataSource
 	final OpenJPAConfiguration conf = cast.getConfiguration();
 	final DataSource dataSource = (DataSource) conf.getConnectionFactory();
 		
-	final NamedDataSource proxyDataSource = NamedJDBCProxy.proxyDataSource(dataSource);
+	***final NamedDataSource proxyDataSource = NamedJDBCProxy.proxyDataSource(dataSource);***
 		
 	final NamedConnection connection = proxyDataSource.getConnection();
 
