@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package fr.ms.jdbc.impl;
+package fr.ms.sql.impl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
@@ -23,8 +23,8 @@ import java.sql.Connection;
 
 import javax.sql.DataSource;
 
-import fr.ms.jdbc.NamedConnection;
-import fr.ms.jdbc.NamedJDBCProxy;
+import fr.ms.sql.NamedConnection;
+import fr.ms.sql.NamedJDBCProxy;
 
 /**
  *

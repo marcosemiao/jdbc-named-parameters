@@ -14,16 +14,16 @@
  * limitations under the License.
  *
  */
-package fr.ms.jdbc;
+package fr.ms.sql;
 
 import java.lang.reflect.InvocationHandler;
 import java.sql.Connection;
 
 import javax.sql.DataSource;
 
-import fr.ms.jdbc.impl.ConnectionHandler;
-import fr.ms.jdbc.impl.DataSourceHandler;
 import fr.ms.lang.reflect.ProxyUtils;
+import fr.ms.sql.impl.ConnectionHandler;
+import fr.ms.sql.impl.DataSourceHandler;
 
 /**
  *

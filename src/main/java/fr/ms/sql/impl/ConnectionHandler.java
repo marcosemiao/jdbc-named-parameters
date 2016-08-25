@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package fr.ms.jdbc.impl;
+package fr.ms.sql.impl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
@@ -24,8 +24,8 @@ import java.sql.PreparedStatement;
 import java.util.HashSet;
 import java.util.Map;
 
-import fr.ms.jdbc.NamedPreparedStatement;
 import fr.ms.lang.reflect.ProxyUtils;
+import fr.ms.sql.NamedPreparedStatement;
 
 /**
  *

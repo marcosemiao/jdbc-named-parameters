@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package fr.ms.jdbc.impl;
+package fr.ms.sql.impl;
 
 import java.sql.SQLException;
 import java.util.HashMap;

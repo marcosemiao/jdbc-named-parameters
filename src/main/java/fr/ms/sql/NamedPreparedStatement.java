@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-package fr.ms.jdbc;
+package fr.ms.sql;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
