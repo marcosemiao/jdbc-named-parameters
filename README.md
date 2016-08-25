@@ -14,7 +14,7 @@ Cette librairie permet d'utiliser les paramètres nommées avec un du jdbc.
 <dependency>
 	<groupId>com.github.marcosemiao</groupId>
 	<artifactId>jdbc-named-parameters</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 </dependency>
 ````
 
