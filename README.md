@@ -26,9 +26,10 @@ Exemple avec une DataSource
 	final OpenJPAEntityManager cast = OpenJPAPersistence.cast(entityManager);
 	final OpenJPAConfiguration conf = cast.getConfiguration();
 	final DataSource dataSource = (DataSource) conf.getConnectionFactory();
-		
-	**final NamedDataSource proxyDataSource = NamedJDBCProxy.proxyDataSource(dataSource);**
-		
+	
+    /* Proxy - JDBC Named Parameters */
+	final NamedDataSource proxyDataSource = NamedJDBCProxy.proxyDataSource(dataSource);
+	
 	final NamedConnection connection = proxyDataSource.getConnection();
 
 	final NamedPreparedStatement statement = connection.prepareStatement(sql);
@@ -44,7 +45,8 @@ Exemple avec une Connection
 	final OpenJPAEntityManager cast = OpenJPAPersistence.cast(entityManager);
 	final Connection connection = (Connection) cast.getConnection();
 
-	**final NamedConnection proxyConnection = NamedJDBCProxy.proxyConnection(connection);**
+	/* Proxy - JDBC Named Parameters */
+	final NamedConnection proxyConnection = NamedJDBCProxy.proxyConnection(connection);
 
 	final NamedPreparedStatement statement = connection.prepareStatement(sql);
 	statement.setInt("siren", siren);
