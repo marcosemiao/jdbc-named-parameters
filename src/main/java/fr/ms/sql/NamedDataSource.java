@@ -30,8 +30,7 @@ import javax.sql.DataSource;
  */
 public interface NamedDataSource extends DataSource {
 
-	public NamedConnection getConnection() throws SQLException;
+	NamedConnection getConnection() throws SQLException;
 
-	public NamedConnection getConnection(String username, String password) throws SQLException;
-
+	NamedConnection getConnection(String username, String password) throws SQLException;
 }
